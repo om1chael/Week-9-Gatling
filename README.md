@@ -20,9 +20,7 @@
 ### Preformance tesing in 3 steps:
     - identify cases
     - align test cases with functinality 
-
-![image](https://www.webairy.com/wp-content/uploads/2019/07/hvsv.jpg)
-
+![image](https://www.smartsheet.com/sites/default/files/IC-Iterative-Process.jpg)
 ## Local Configure:
 ## Part 1:
 To do:
