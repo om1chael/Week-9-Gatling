@@ -24,7 +24,14 @@ Consumer profiling (also referred to as "customer profiling") is the only way to
     - identify cases
     - align test cases with functinality 
 ![image](https://www.smartsheet.com/sites/default/files/IC-Iterative-Process.jpg)
-## Local Configure:
+
+### To do:
+    - install java
+    - install scala plug in 
+    - install intellij
+    - install gattling
+
+## installations and configure:
 ## Part 1:
 To do:
 install Java version 8 and up.
@@ -36,11 +43,6 @@ Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
 if this doesnt work, you will need to install Java and configure the path file. you can do this by following this link. 
 ___
 ## Part 2:
-### To do:
-    - install java
-    - install scala plug in 
-    - install intellij
-    - install gattling
 
 [install-java-windows link](https://devwithus.com/install-java-windows-10/)
 
