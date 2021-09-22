@@ -145,7 +145,7 @@ click on the `index.html` file
 ![image](http://cdn2.hubspot.net/hub/208250/file-2237421292-png/Blog_Images/AWSblog1.png?t=1418810526863)
 
 ## What gets monitored 
-### monitoring
+### Monitoring
 - Types of monitoring:
     - Computer Resource: \
     RAM usage, CPU load, and remaining disk space.
