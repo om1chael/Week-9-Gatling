@@ -5,17 +5,20 @@
  - align the customers expectations with the 
 
 
-### 6-12 weeks to do a test depeing on the level of teh system that need to be tested
+### 6-12 weeks to do a test depeing on the level of the system that need to be tested
 
 ## Tools: 
-Gattling (open source load testing software) 
+- Gattling - open source testing software 
 ## Types of tests: 
-load, spike , stress  and soak
+ - load
+ - spike 
+ - stress
+ - soak
 
 ## Itterative approach 
 ### Preformance tesing in 3 steps:
     - identify cases
-    - alighn test cases with functinality 
+    - align test cases with functinality 
 
 ![image](https://www.webairy.com/wp-content/uploads/2019/07/hvsv.jpg)
 
@@ -54,9 +57,7 @@ This is a stress test meaning that the website will have lots of requests sent t
 
 Go to the website that you want to test e.g.: 
 
-########## \
-ADD SPARTA IMAGE\
-##########
+![images](https://github.com/ViMitre/sre_gatling/raw/main/img/1.png)
 
 
 
@@ -92,7 +93,62 @@ then this page will pop up:
 
 - Click brows and enter the place the HAR file that you downloaded. 
 
-- once the file has been incerted press `start` at the bottom right.
+- Once the file has been incerted press `start` at the bottom right.
+
+once it has fininshed go back to intelij
+
+## Running the test
+
+once in intelij 
+
+In the same location that you ran  `./recorder.bat`
+there should be a file called `./gattling.bat`
+run that command. once the command has been run, then you should see a list of recodings like this:
+```
+$ ./gatling.bat
+GATLING_HOME is set to "C:\Users\pauli\Desktop\gatling"
+JAVA = "java"
+Choose a simulation number:
+     [0] AwsSpartaInstance 
+     [1] RecordedSimulation
+     [2] Testnewhar
+     [3] computerdatabase.BasicSimulation
+     [4] computerdatabase.advanced.AdvancedSimulationStep01     
+     [5] computerdatabase.advanced.AdvancedSimulationStep02     
+     [6] computerdatabase.advanced.AdvancedSimulationStep03     
+     [7] computerdatabase.advanced.AdvancedSimulationStep04     
+     [8] computerdatabase.advanced.AdvancedSimulationStep05     
+     [9] proxyTest
 
 
-## Testing the 
+```
+Select your recoding and wait for the tests to be completed.
+
+Once the tests are completed. Navigate to the gatling `user-files\simulations` and click on the newly created file. 
+click on the `index.html` file
+
+
+
+![image](https://cdn2.hubspot.net/hubfs/208250/Blog_Images/gatlingapi2.png)
+
+## AWS cloud watch
+
+![image](http://cdn2.hubspot.net/hub/208250/file-2237421292-png/Blog_Images/AWSblog1.png?t=1418810526863)
+
+## What gets monitored 
+### monitoring
+- Types of monitoring:
+    - Resource:\
+    RAM usage, CPU load, and remaining disk space.
+    - Network:\
+     firewalls, servers and switches 
+
+
+
+## Diagram:
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ933_PAvaMHH_673RDmg1aUaWoBIx7TIJkrg&usqp=CAU)
+
+# Amazon SNS  
+types of SNS:
+-   SNS A2A 
+-   SNS A2P
