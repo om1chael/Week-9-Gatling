@@ -24,6 +24,7 @@
 ![image](https://www.webairy.com/wp-content/uploads/2019/07/hvsv.jpg)
 
 ## Local Configure:
+## Part 1:
 To do:
 install Java version 8 and up.
 this can be checked using the `java -version` command in java:
