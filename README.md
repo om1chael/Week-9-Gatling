@@ -1,7 +1,9 @@
 # Preformance testing:
-Consumer profiling (also referred to as "customer profiling") is the only way to gather the insights needed to identify, segment and define your target audience.
+
 ## Customer profiling 
 ![image](https://serendipity2.com/s2web/wp-content/uploads/2017/04/Customer-Profiling.jpg)
+Consumer profiling (also referred to as "customer profiling") is the only way to gather the insights needed to identify, segment and define your target audience.
+
  - Set the bussiness expectations of the product 
  - align the customers expectations with the product \
 
@@ -9,7 +11,7 @@ Consumer profiling (also referred to as "customer profiling") is the only way to
 # Tests theory
  - Tests are conducted in order to make sure that the site is allways available.  
  - it takes 6-12 weeks to do a test depeing on the level of the system that need to be tested
-## Tools: 
+## Tools for Tests: 
 - Gattling - open source testing software 
 ## Types of Tests: 
  - *load Test* - tests help you understand how a system behaves under an expected load
@@ -153,4 +155,17 @@ click on the `index.html` file
     - Network :\
      firewalls, servers and switches 
 
+## GOAL --> To achieve Highly Availability and Scalability
+- 
+Scale out - Scale in Policies:
+![image](https://microsegment.io/img/scale-up-vs-scale-out.png)
+
+Scale up:
+Adding more hardware to a server to make it bigger in order to increase its load. This is done by:
+    - buying more RAM
+    - buying a bigger processor
+    - buying a bigger disk or network cards
+
+Scale out :
+Scale out would be to spread the workload on more machines.
 
