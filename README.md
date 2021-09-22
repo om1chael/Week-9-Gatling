@@ -1,4 +1,5 @@
 # Preformance testing:
+Consumer profiling (also referred to as "customer profiling") is the only way to gather the insights needed to identify, segment and define your target audience.
 ## Customer profiling 
 ![image](https://serendipity2.com/s2web/wp-content/uploads/2017/04/Customer-Profiling.jpg)
  - Set the bussiness expectations of the product 
@@ -153,6 +154,3 @@ click on the `index.html` file
      firewalls, servers and switches 
 
 
-
-## Diagram:
-![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ933_PAvaMHH_673RDmg1aUaWoBIx7TIJkrg&usqp=CAU)
