@@ -42,7 +42,6 @@ Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
 ```
 if this doesnt work, you will need to install Java and configure the path file. you can do this by following this link. 
 ___
-## Part 2:
 
 [install-java-windows link](https://devwithus.com/install-java-windows-10/)
 
