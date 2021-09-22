@@ -2,18 +2,19 @@
 ## Customer profiling 
 ![image](https://serendipity2.com/s2web/wp-content/uploads/2017/04/Customer-Profiling.jpg)
  - Set the bussiness expectations of the product 
- - align the customers expectations with the 
+ - align the customers expectations with the product \
 
 
-### 6-12 weeks to do a test depeing on the level of the system that need to be tested
-
+# Tests theory
+ - Tests are conducted in order to make sure that the site is allways available.  
+ - it takes 6-12 weeks to do a test depeing on the level of the system that need to be tested
 ## Tools: 
 - Gattling - open source testing software 
-## Types of tests: 
- - load
- - spike 
- - stress
- - soak
+## Types of Tests: 
+ - *load Test* - tests help you understand how a system behaves under an expected load
+ - *spike Test* - application receives a sudden and extreme increase in requests
+ - *stress Test* -tests help you understand the upper limits of a system's capacity using a load beyond the expected maximum
+ - *soak Test* - Testing a system with a typical production load, over a continuous availability period, to validate system behavior under production use.
 
 ## Itterative approach 
 ### Preformance tesing in 3 steps:
@@ -31,25 +32,34 @@ java version "1.8.0_201"
 Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
 ```
 if this doesnt work, you will need to install Java and configure the path file. you can do this by following this link. 
+___
+## Part 2:
+### To do:
+    - install java
+    - install scala plug in 
+    - install intellij
+    - install gattling
 
 [install-java-windows link](https://devwithus.com/install-java-windows-10/)
 
-Install The lastes version of intellij:
+## Install The lastes version of intellij:
 
 [intellij download link](https://www.jetbrains.com/idea/download/#section=windows)
 
- install `scala` as a plugin in intellij
 
-download Gattling:
+## install `scala` as a plugin in intellij
+![image](https://devskiller.com/wp-content/uploads/2018/05/Scala-Blog-post.png)
+
+## Download Gattling:
 use this link and place it somewere you can access it
 
 [Downaload the document](https://gatling.io/docs/gatling/tutorials/installation/)
 
-
-## Test section
+___
+# Test section
 This section will cover how tests are conducted:
-- record the website tasks that you want to test 
-- increase the user  
+- recording the website tasks that you want to test 
+- 
 
 
 This is a stress test meaning that the website will have lots of requests sent to the website. This is a DDOs attack, so you ` MUST OWN THE WEBSITE YOU ARE TESTING `
@@ -138,17 +148,12 @@ click on the `index.html` file
 ## What gets monitored 
 ### monitoring
 - Types of monitoring:
-    - Resource:\
+    - Computer Resource: \
     RAM usage, CPU load, and remaining disk space.
-    - Network:\
+    - Network :\
      firewalls, servers and switches 
 
 
 
 ## Diagram:
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ933_PAvaMHH_673RDmg1aUaWoBIx7TIJkrg&usqp=CAU)
-
-# Amazon SNS  
-types of SNS:
--   SNS A2A 
--   SNS A2P
