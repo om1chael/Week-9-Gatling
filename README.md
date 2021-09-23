@@ -150,23 +150,13 @@ click on the `index.html` file
 
 ## What gets monitored 
 ### Monitoring
-- Types of monitoring:
+
+Adding more hardware to a server to make it bigger in order to increase its load will need to be monitored in ordered to make sure it works.
+- Things that need to be monitored:
     - Computer Resource: \
     RAM usage, CPU load, and remaining disk space.
     - Network :\
      firewalls, servers and switches 
 
 ## GOAL --> To achieve Highly Availability and Scalability
-- 
-Scale out - Scale in Policies:
-![image](https://microsegment.io/img/scale-up-vs-scale-out.png)
-
-Scale up:
-Adding more hardware to a server to make it bigger in order to increase its load. This is done by:
-    - buying more RAM
-    - buying a bigger processor
-    - buying a bigger disk or network cards
-
-Scale out :
-Scale out would be to spread the workload on more machines.
 
